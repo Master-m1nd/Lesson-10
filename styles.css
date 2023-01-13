@@ -1,0 +1,429 @@
+@font-face {
+    font-family: "RussoOne";
+    src: url(./fonts/RussoOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Muller Regular";
+    src: url(./fonts/Muller\ Regular.woff) format("woff"),
+         url(./fonts/Muller\ Regular.woff2) format("woff2");
+}
+@font-face {
+    font-family: "Muller Bold";
+    src: url(./fonts/Muller\ Bold.woff) format("woff"),
+         url(./fonts/Muller\ Bold.woff2) format("woff2");
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Muller Regular";
+}
+
+.first-screen {
+    height: 800px;
+    background-image:url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.lady {
+    height: 450px;
+    background-image:url(.images/lady.png);
+    position: absolute;
+    display: flex;
+    justify-self: flex-end;
+    background-size: calc(600px*0.8), cover;
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0;
+    top: 193px;
+}
+
+header {
+    display: grid;
+    position: static;
+    padding-top: 20px;
+    align-content: space-between;
+    grid-template-rows: auto;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.flex-box {
+    display: flex;
+    gap: 230px 230px;
+}   
+
+.logo {
+    display: flex;
+    width: 250px;
+}
+
+.text-logo {
+    font-family: "RussoOne";
+    color: #46B1DE;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    padding-top: 30px;
+    gap: 30px;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.phone {
+    padding-top: 30px;
+} 
+
+.phone a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+} 
+
+.info {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+h1 {
+    font-family: "RussoOne";
+    font-size: 25px;
+}
+
+h1 span {
+    color:#46B1DE;
+}
+
+span {
+    font-weight: 700;
+}
+
+.bottom {
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    border: 1px solid rgb(0, 119, 255);
+}
+
+.bottom-1 {
+    background-color: #46B1DE;
+    margin-top: 45px;
+    margin-left: 10px;
+}
+
+.bottom-1 a {
+    color: white;
+    margin-left: 40px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.bottom-2 {
+    background-color: white;
+    margin-left: 100px;
+}
+
+.bottom-2 a {
+    color: #46B1DE;
+    margin-left: 28px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.blocks {
+    display: grid;
+    justify-items: center;
+}
+
+.blocks-inline {
+    display: flex;
+    margin-top: 180px;
+    box-sizing: border-box;
+    gap: 30px;
+}
+
+.block-position {
+    border: 1px solid gray;
+    height: 80px;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+    gap: 10px;
+    z-index: 5; 
+}
+
+.little-2 {
+    margin-top: 5px;
+}
+
+.little-3 {
+    margin-top: 15px;
+}
+
+.numbers {
+    font-family: "Muller Bold";
+    color: #46B1DE;
+    font-size: 50px;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.text {
+    padding-top: 20px;
+}
+
+.middle {
+    text-align: center;
+}
+
+.middle h2 {
+    font-family: "RussoOne";  
+}
+
+.middle span {
+    color: #46B1DE;
+}
+
+.info-block {
+    background-color:rgb(112, 157, 207);
+    height: 340px;
+    width: 890px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.blocks-inside {
+    display: flex;
+}
+
+.box-inside {
+    display: flex;
+    background-color: white;
+    border: 1px solid white;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.head-box {
+    display: flex;
+    height: 50px;
+    color: #46B1DE;
+    gap: 10px;
+    font-family: "Muller Bold";
+    padding-top: 5px;
+}
+
+.head-box span {
+    color: #46B1DE;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.head-box p {
+    margin-top: 7px;
+    font-weight: 600;
+}
+
+.box-inside2 {
+    background-color: white;
+    border: 1px solid white;
+    width: 250px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text-inside {
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.box1 {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.box2 {
+    margin-top: 35px;
+    margin-left: -10px;
+}
+
+.box3 {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.box4 {
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+.box5 {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.box6 {
+    margin-top: 35px;
+    margin-left: -10px;
+}
+
+.background {
+    background: rgb(170,211,237);
+    background: linear-gradient(90deg, rgba(170,211,237,1) 23%, 
+    rgba(33,131,194,1) 60%, rgba(26,130,196,1) 60%);
+    width: 100%;
+    height: 320px;
+    margin-top: 50px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.tooth {
+    display: flex;
+    width: 300px;
+    margin-left: 10px;
+    padding-top: 40px;
+}
+
+.tooth-box img {
+    height: 50px;
+}
+
+h3 {
+    display: flex;
+    color: #020349;
+    font-size: 20px;
+    font-weight: 600;
+    flex-direction: column;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+h3 span {
+    font-weight: 500;
+}
+
+.navigation-footer {
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 20px;
+    width: 100px;
+}
+
+.middle-left {
+    display: flex;
+}
+
+.work-time {
+    display: flex;
+    margin-left: 200px;
+    margin-top: -80px;
+}
+
+
+.right-side {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 900px;
+    margin-top: -220px;
+    column-gap: 15px;
+}
+
+.right-side span {
+    font-weight: 500;
+}
+
+.footer-phone {
+    display: flex;
+}
+
+.footer-phone img {
+    height: 20px;
+}
+
+.footer-phone span {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.footer-messangers {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-messangers img {
+    height: 20px;
+}
+
+.whatsapp img {
+    height: 25px;
+}
+
+.insta-id {
+    display: flex;
+}
+
+.insta-id img {
+    height: 20px;
+    margin-top: -5px;
+}
+
+.insta-id span {
+    padding-left: 10px;
+    margin-top: -2px;
+}
+
+.email-name {
+    display: flex;
+    margin-top: 15px;
+}
+
+.email-name img {
+    height: 25px;
+}
+
+.email-name span {
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.copyright {
+    display: flex;
+}
+
+small{
+    margin-top: 15px;
+    margin-left: 150px;
+}
